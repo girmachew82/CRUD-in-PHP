@@ -1,4 +1,5 @@
 <?php
+//resource of database connection
 $conn = new mysqli('localhost','root','','bid');
 if($conn->connect_error)
 {
